@@ -1,0 +1,144 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins",sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background-color: #272626;
+}
+a{ 
+  color: white;
+  text-decoration: none;
+  
+  
+}
+.navbar{
+  position:fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  padding: 25px 9%;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+}
+.navbar .logo{
+  font-size: 30px;
+  font-weight: 700;
+}
+.navbar ul{
+  display: flex;
+ 
+
+}
+.navbar ul li{
+  list-style: none;
+  margin: 35px;
+}
+.navbar ul li a{
+  font-size: 20px;
+  font-weight: 500;
+}
+.navbar ul li:hover a{
+  color: rgb(84, 241, 84);
+ transition: .5s;
+}
+.navbar ul li a.active{
+  color: rgb(84, 241, 84);
+}
+.home{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  padding: 60px 9% 0;
+  color:rgb(255, 255, 255) ;
+}
+.home-info h1{
+     font-size: 55px;
+
+}
+
+.home-info h2{
+  font-size: 32px;
+  
+  margin-top: -10px;
+}
+.home-info p{
+  font-size: 16px;
+  margin: 10px 0px 25px;
+}
+.home-info .btn-sci{
+      display: flex;
+      align-items: center;
+
+}
+.btn{
+  display: inline-block;
+  padding: 10px 30px;
+  background: rgb(53, 172, 53);
+  border: 2px solid rgb(47, 170, 47);
+  border-radius:40px;
+  box-shadow: 0 0 10px #69d32f;
+  font-size: 16px;
+  color: rgb(1, 0, 0);
+  font-weight:bold;
+  transition: .6s;
+   
+}
+.btn:hover{
+  color: rgb(12, 184, 12);
+  background:transparent;
+  box-shadow: none;
+  
+}
+.home-info .btn-sci .sci{
+  margin-left: 20px;
+}
+.home-info .btn-sci .sci a{
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid rgb(37, 172, 37);
+    border-radius: 50%;
+    font-size: 15px;
+    color: rgb(49, 159, 49);
+    margin: 0 8px;
+    transition: .6s;
+
+    
+
+}
+.home-info .btn-sci .sci a:hover{
+    background: rgb(49, 180, 49);
+    color: black;
+    box-shadow: 0 0 10px rgb(47, 167, 47);
+}
+.home-img .img-box{
+  width: 32vw;
+  height: 32vw;
+  background: red;
+  border-radius: 50%;
+}
+.home-img .img-box .img-item{
+  width: 100%;
+  position:relative;
+  height: 100%;
+  background: slateblue;
+  border-radius: 50%;
+}
+.home-img .img-box .img-item .images{
+  position:absolute;
+  display: block;
+ width: 700px;
+ height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+ 
+
+}
+ img {
+  width: 300px;
+  height: auto;
+}
